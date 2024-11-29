@@ -1,8 +1,10 @@
+import { posts } from "../Posts/posts";
+
 export default function Card() {
   return (
     <>
-      <div className="card-container">
-        <div className="card text-start m-auto mt-5" style={{ width: "500px" }}>
+      <div>
+        <div className="card text-start mt-5 " style={{ width: "500px" }}>
           <div>
             <img
               className="img-fluid rounded"
