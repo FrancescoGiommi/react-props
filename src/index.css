@@ -1,0 +1,15 @@
+body {
+  background-color: lightgray;
+}
+
+footer {
+  height: 100px;
+  background-color: rgba(44, 44, 44, 0.911);
+  width: 100%;
+  margin-top: 100px;
+}
+
+.p-footer {
+  color: white;
+  padding-top: 40px;
+}
