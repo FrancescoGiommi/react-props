@@ -2,6 +2,8 @@ import Card from "../Cards/Card";
 import { posts } from "../Posts/posts";
 /* Main export */
 export default function Main() {
+  const postFilter = posts.filter((post) => post.published === true);
+
   return (
     <>
       <main>
@@ -11,9 +13,9 @@ export default function Main() {
               key={post.id}
               title={post.title}
               image={post.image}
-              description={post.description}
+              description={post.content}
               tags={post.tags}
-              published={post.published}
+              published={post.postFilter}
             />
           ))}
         </div>
