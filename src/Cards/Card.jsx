@@ -1,3 +1,4 @@
+/* Card export */
 export default function Card({ title, image, description, tags, published }) {
   return (
     <>

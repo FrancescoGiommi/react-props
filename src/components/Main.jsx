@@ -1,10 +1,23 @@
+/* Card import */
 import Card from "../Cards/Card";
+
+/* Posts import */
 import { posts } from "../Posts/posts";
 
 /* Main export */
 export default function Main() {
+  /* Filtro post with property true */
   const postFilter = posts.filter((post) => post.published === true);
+
+  /* Crete new array with Map */
   const postMap = postFilter.map((post) => post);
+  console.log(postMap[0].tags);
+
+  /* Function for change color html tag */
+  function htmlTagColor(color) {
+    {
+    }
+  }
   return (
     <>
       <main>

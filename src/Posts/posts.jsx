@@ -1,8 +1,10 @@
+/* Import images */
 import auroraBoreale from "../../public/img/aurora_boreale.jpg";
 import dog from "../../public/img/dog.jpg";
 import mountain from "../../public/img/mountain.jpg";
 import street from "../../public/img/street.jpg";
 
+/* Export posts */
 export const posts = [
   {
     id: 1,
