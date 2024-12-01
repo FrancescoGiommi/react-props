@@ -1,5 +1,9 @@
+/* Default image */
+import imageDefault from "../../public/img/img.png";
+
 /* Card export */
 export default function Card({ title, image, description, tags, published }) {
+  const imagePath = image || imageDefault;
   return (
     <>
       <div>
@@ -11,7 +15,7 @@ export default function Card({ title, image, description, tags, published }) {
             <img
               className="img-fluid rounded"
               style={{ width: "600px" }}
-              src={image}
+              src={imagePath}
               alt="image"
             />
           </div>

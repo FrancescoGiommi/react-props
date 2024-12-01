@@ -6,7 +6,7 @@ footer {
   height: 100px;
   background-color: rgba(44, 44, 44, 0.911);
   width: 100%;
-  margin-top: 100px;
+  margin-top: auto;
 }
 
 .p-footer {

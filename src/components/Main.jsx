@@ -9,15 +9,18 @@ export default function Main() {
   /* Filtro post with property true */
   const postFilter = posts.filter((post) => post.published === true);
 
-  /* Crete new array with Map */
+  /* Create new array with Map */
   const postMap = postFilter.map((post) => post);
-  console.log(postMap[0].tags);
+
+  let i = 0;
 
   /* Function for change color html tag */
-  function htmlTagColor(color) {
-    {
-    }
-  }
+  const tagPosts = () => {
+    return postMap[0].tags.map((tag) => tag);
+  };
+
+  console.log(tagPosts());
+
   return (
     <>
       <main>
